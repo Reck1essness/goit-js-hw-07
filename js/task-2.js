@@ -31,5 +31,5 @@ const gallery = document.querySelector(".gallery");
 gallery.classList.add("gallery-flex");
 
 
-const markup = images.map(({url, alt}) => `<li class ="gallery=item"><img src="${url}" alt="{alt}" class="gallery-img"></li>`).join("");
+const markup = images.map(({url, alt}) => `<li class = "gallery-item"><img src="${url}" alt="${alt}" class="gallery-img"></li>`).join("");
 gallery.insertAdjacentHTML("beforeend", markup);
